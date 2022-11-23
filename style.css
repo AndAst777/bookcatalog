@@ -1,0 +1,120 @@
+.header {
+    width: 100vw;
+    height: 10vh;
+}
+
+.header li {
+    display: inline-block;
+}
+
+.logotipe {
+    height: 10vh;
+    width: 5vw;
+    margin-left: 10vw;
+}
+
+.logo-text {
+    position: absolute;
+    margin-left: 17vw;
+    margin-top: -8vh;
+    font-size: 4vh;
+}
+
+.panel-navigation {
+    position: absolute;
+    width: 100vw;
+    height: 12vh;
+    left: 0px;
+    top: 15vh;
+    background: #24A4FF;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+#navbar ul {
+    display: none;
+    width: 40vw;
+    position: absolute;
+    list-style-type: none;
+    z-index: 1;
+}
+
+#navbar {
+    font-family: Century Gothic;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#navbar ul li {
+    float: none;
+}
+
+#navbar li:hover {
+    background: #57B9FF;
+    border-radius: 15px;
+}
+
+#navbar li:hover ul {
+    display: block;
+}
+
+#navbar,
+#navbar ul {
+    margin: 0;
+    padding: 0px 0 0px 0;
+    list-style-type: none;
+}
+
+#navbar li {
+    left: 20vw;
+    top: 4vh;
+    display: inline-block;
+    position: relative;
+    width: 10vw;
+    list-style-type: none;
+}
+
+#livesearch {
+    position: absolute;
+    top: 5vh;
+    left: 20vw;
+}
+
+input {
+    margin-top: -1.5vh;
+    width: 20vw;
+    height: 5vh;
+    padding-left: 1vw;
+    border: 2px solid #57B9FF;
+    border-radius: 15px;
+    outline: none;
+    background: #57B9FF;
+    color: white;
+}
+
+#searchresult {
+    z-index: 2;
+    color: black;
+}
+
+.result {
+    margin-top: 20vh;
+    color: white;
+}
+
+.profile {
+    text-decoration: none;
+    color: white;
+}
+
+.catalog {
+    text-decoration: none;
+    color: white;
+}
+
+.blog {
+    text-decoration: none;
+    color: white;
+}
